@@ -1,0 +1,151 @@
+.top-navbar {
+  height: 110px;
+  background: rgba(15, 15, 15, 0.8);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  & .logo {
+    height: 30px;
+    width: 153px;
+  }
+  & .navbar-item {
+    padding-right: 60px;
+    &:last-child {
+      padding-right: 0 !important;
+    }
+    & .navbar-link {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      color: $white-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        color: $theme1;
+      }
+      & img {
+        height: 20px;
+        width: 20px;
+        margin-right: 9px;
+      }
+    }
+  }
+}
+
+.NavbarOffcanvas {
+  width: 280px !important;
+  background-color: #0f0f0f;
+  color: $white-color;
+  & .offcanvas-header {
+    & img {
+      width: 87px;
+      height: 50px;
+    }
+    & .btn-close {
+      background-size: 0.8em;
+      background-image: url(../img/btn-close.svg) !important;
+    }
+  }
+  & .offcanvas-body {
+    & .offcanvas-list {
+      & .offcanvas-item {
+        padding: 6px 0px;
+        & .offcanvas-link {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.1em;
+          font-style: normal;
+          font-family: "Poppins";
+          color: $white-color;
+          transition: 0.3s ease;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint(basic) {
+}
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xxl) {
+}
+
+@include media-breakpoint-down(xxl) {
+}
+
+@include media-breakpoint-down(xl) {
+  .top-navbar {
+    & .logo {
+    }
+    & .navbar-item {
+      padding-right: 22px;
+      &:last-child {
+        padding-right: 0 !important;
+      }
+      & .navbar-link {
+        &:hover {
+        }
+        & img {
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .top-navbar {
+    height: 75px;
+    & .logo {
+      height: 25px;
+      width: 129px;
+    }
+    & .navbar-item {
+      display: block;
+      padding-right: 60px;
+      &:last-child {
+        padding-right: 0 !important;
+      }
+      & .navbar-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+        color: $white-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        & img {
+          height: 20px;
+          width: 20px;
+          margin-right: 9px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+}

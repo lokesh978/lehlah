@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Sora';
+    src: url('../../sorafont/Sora-Medium.woff2') format('woff2'),
+        url('../../sorafont/Sora-Medium.woff') format('woff'),
+        url('../sorafont/Sora-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-Regular.woff2') format('woff2'),
+        url('../sorafont/Sora-Regular.woff') format('woff'),
+        url('../sorafont/Sora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-Light.woff2') format('woff2'),
+        url('../sorafont/Sora-Light.woff') format('woff'),
+        url('../sorafont/Sora-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-Bold.woff2') format('woff2'),
+        url('../sorafont/Sora-Bold.woff') format('woff'),
+        url('../sorafont/Sora-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-Thin.woff2') format('woff2'),
+        url('../sorafont/Sora-Thin.woff') format('woff'),
+        url('../sorafont/Sora-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-ExtraLight.woff2') format('woff2'),
+        url('../sorafont/Sora-ExtraLight.woff') format('woff'),
+        url('../sorafont/Sora-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-SemiBold.woff2') format('woff2'),
+        url('../sorafont/Sora-SemiBold.woff') format('woff'),
+        url('../sorafont/Sora-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../sorafont/Sora-ExtraBold.woff2') format('woff2'),
+        url('../sorafont/Sora-ExtraBold.woff') format('woff'),
+        url('../sorafont/Sora-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
